@@ -3,4 +3,23 @@ body {
 	padding: 0;
 	background-color: black;
 	color: seashell;
+	font-family: Helvetica;
+	font-size: 22px;
+	opacity: .9;
+}
+
+/* Header */
+
+header {
+	border-bottom: 1px solid seashell;
+	height: 69px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+}
+
+a {
+	color: seashell;
+	padding-left: 20px;
 }
