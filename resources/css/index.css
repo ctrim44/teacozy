@@ -32,7 +32,7 @@ header {
 
 a {
 	color: seashell;
-	padding-left: 20px;
+	padding:0 15px;
 }
 
 .content {
@@ -61,3 +61,38 @@ a {
 	align-items: center;
 }
 
+/* Featured */
+
+#featured {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+}
+
+.fea-head {
+	padding: 30px;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tea-pics {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.tea-pics img{
+	height: 200px;
+	width: 300px;
+	padding-bottom: 5px;
+}
+
+.pic-boxes {
+	text-align: center;
+	padding: 15px;
+}
